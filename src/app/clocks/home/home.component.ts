@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
     this.clockService.start()
     this.clockService.clockUpdate.subscribe(clock => {
       this.clock = clock
-    })
+    })  
   }
 
   onIncrementHours(value: number) {

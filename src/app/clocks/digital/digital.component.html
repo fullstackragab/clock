@@ -1,1 +1,7 @@
-<div class="wrapper">{{format(hours)}}:{{format(minutes)}}:{{format(seconds)}}</div>
+<div class="wrapper">
+  <div class="value hours">{{ hours | number: '2.0' }}</div>
+  <div class="colon">:</div>
+  <div class="value minutes">{{ minutes | number: '2.0' }}</div>
+  <div class="colon">:</div>
+  <div class="value seconds">{{ seconds | number: '2.0' }}</div>
+</div>

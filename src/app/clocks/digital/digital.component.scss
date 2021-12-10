@@ -1,6 +1,18 @@
 .wrapper {
   font-size: 36px;
   width: 300px;
-  margin: 50px auto;
+  margin: 30px auto;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #e00404;
+  padding: 5px;
+  border-radius: 4px;
+
+  .value {
+    margin:0px 10px;
+  }
 }
