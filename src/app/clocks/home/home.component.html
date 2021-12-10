@@ -1,0 +1,5 @@
+<div class="wrapper">
+  <app-analog [hours]="clock.hours" [minutes]='clock.minutes' [seconds]="clock.seconds"></app-analog>
+  <app-digital [hours]="clock.hours" [minutes]="clock.minutes" [seconds]="clock.seconds" ></app-digital>
+  <app-settings (incrementHours)="onIncrementHours($event)" (incrementMinutes)="onIncrementMinutes($event)" (incrementSeconds)="onIncrementSeconds($event)"></app-settings>
+</div>

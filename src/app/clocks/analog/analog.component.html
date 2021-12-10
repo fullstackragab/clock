@@ -1,0 +1,24 @@
+<div class="clock">
+  <div class="outer-clock-face">
+    <div class="marking marking-one"></div>
+    <div class="marking marking-two"></div>
+    <div class="marking marking-three"></div>
+    <div class="marking marking-four"></div>
+    <div class="inner-clock-face">
+      <div class="hand hour-hand" [ngStyle]="hoursHandStyle"></div>
+      <div class="hand min-hand" [ngStyle]="minutesHandStyle"></div>
+      <div class="hand second-hand" [ngStyle]="secondsHandStyle"></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="wrapper">
+  <div class="hours hand" [ngStyle]="hoursHandStyle"></div>
+  <div class="minutes hand" [ngStyle]="minutesHandStyle"></div>
+  <div class="seconds hand" [ngStyle]="secondsHandStyle"></div>
+  <div class="center-circle"></div>
+  <span class="numbers" *ngFor="let n of [1,2,3,4,5,6,7,8,9,10,11,12]" [style]="getStyle(n)">
+    {{n}}
+  </span>
+</div> -->

@@ -1,0 +1,19 @@
+<div class="wrapper">
+  <div class="controls hours">
+    <div (click)="onHours(1)" class="plus"><img src='assets/icons/add.svg'></div>
+    <div>H</div>
+    <div (click)="onHours(-1)" class="minus"><img src='assets/icons/remove.svg'></div>
+  </div>
+  <div class="colon"></div>
+  <div class="controls minutes">
+    <div (click)="onMinutes(1)" class="plus"><img src='assets/icons/add.svg'></div>
+    <div>M</div>
+    <div (click)="onMinutes(-1)" class="minus"><img src='assets/icons/remove.svg'></div>
+  </div>
+  <div class="colon"></div>
+  <div class="controls seconds">
+    <div (click)="onSeconds(1)" class="plus"><img src='assets/icons/add.svg'></div>
+    <div>S</div>
+    <div (click)="onSeconds(-1)" class="minus"><img src='assets/icons/remove.svg'></div>
+  </div>
+</div>
